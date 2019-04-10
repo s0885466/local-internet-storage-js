@@ -1,0 +1,132 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-top: 20px;
+}
+
+a{
+    cursor: pointer;
+}
+
+.addGood, .removeGood {
+margin-right:10px;
+color: #1976d2;
+
+}
+
+.finish{
+text-align: right;
+float: right;
+margin-bottom: 10px;
+}
+
+.finish p{
+padding-right: 50px;
+}
+
+.back {
+    float: left;
+}
+
+.back a{
+    color: #000000;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    width: 1000px;
+    margin: auto;
+}
+
+.content>div>a {
+    text-decoration: none;
+    color:#000000;
+}
+
+.goods {
+    display: flex;
+   text-align: left;
+}
+
+.goods .description{
+width: 250px;
+}
+
+.goods .description a{
+    display: block;
+    margin-top: 20px;
+    margin-bottom:50px;
+    color:#1976d2;
+}
+.goods .description p+p{
+    color: coral;
+    font-weight: bold;
+    }
+
+
+
+.goods .costs{
+    width: 150px;
+    padding: 10px 10px 10px 10px;
+}
+.num{
+    width: 100px;
+    padding: 10px 10px 10px 10px; 
+}
+.all{
+    width: 200px;
+    padding: 10px 10px 10px 10px; 
+
+}
+
+
+.goods .image img{
+    width: 100px;
+}
+
+.goods div{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.goods .image p{
+    padding-left: 30px;
+}
+
+.goods .num p{
+    display:inline;
+    margin-right: 5px;
+}
+
+.order{
+    width: 1000px;
+    margin: auto;
+    text-align: right;
+}
+.order a{
+    background:coral;
+    padding: 15px 80px 15px 80px;
+    color:white;
+    border-radius: 5px;
+    display: block;
+text-align: center;
+transition: 0.3s;
+}
+
+.order a:hover{
+    background: rgb(179, 89, 25);
+}

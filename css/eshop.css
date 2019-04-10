@@ -1,0 +1,128 @@
+html {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+body {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: stretch;
+}
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 10px;
+}
+aside {
+    margin-right: 20px;
+    flex-shrink: 3;
+    min-width: 250px;
+}
+section {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: stretch;
+    flex-shrink: 9;
+}
+.filter {
+    margin-bottom: 20px;
+}
+
+.filter a{
+    text-decoration: none;
+    color: inherit;
+    transition: 1s;
+}
+
+.filter a:hover{
+    text-shadow: black 0 0 1px;
+}
+
+.filter ul{
+list-style: none;
+}
+
+#basketOfGoods{
+    text-decoration: none;
+    color: red;
+}
+#basketOfGoods span{
+    color: black;
+}
+
+
+
+section ul {
+    list-style: none;
+    display: inline;
+}
+section ul li {
+    display: inline;
+}
+.catalog {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.catalog>div{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+.catalog__item {
+    margin: 10px;
+}
+.catalog__item img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.catalog__item-preview{
+    width: 200px;
+    height: 200px;
+    border: 20px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+	transition: 1s;
+}
+.catalog__item-preview:hover{
+    border: 20px solid #C8C4C4;
+}
+
+.catalog__item-description{
+    max-width: 260px;
+}
+
+
+.catalog__item-cost{
+    font-weight: bold;
+    color: red;
+}
+.catalog__item-popularity{
+    color: yellow;
+    text-shadow: black 0 0 2px;
+}
+
+.sorting ul{
+    padding-right: 50px;
+    padding-left: 10px;
+}

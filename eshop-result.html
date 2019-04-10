@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/eshop.css">
+</head>
+<body>
+    <aside>
+            <form action="">
+                <label>Поиск</label>
+                    <input type="text" list="search" autocomplete="on" class="search__input" >
+                    <datalist id="search">
+                        <option>Беларусь</option>
+                        <option>Бельгия</option>
+                        <option>Болгария</option>
+                        <input type="submit">
+                    </datalist>
+                </form>
+        <div class="filter">
+            <p>По категории</p>
+            <ul class="filter__categories">
+                <li><a href="#" data-category="Категория 1">Категория 1</a> <span class="badge">20</span></li>
+                <li><a href="#" data-category="Категория 2">Категория 2</a> <span class="badge">12</span></li>
+                <li><a href="#" data-category="...">...</a> <span class="badge">32</span></li>
+                <li><a href="#" data-category="Категория N">Категория N</a> <span class="badge">21</span></li>
+            </ul>
+            <p>По бренду</p>
+            <ul class="filter__brands">
+                <li><a href="#" data-brand="Категория 1">Бренд 1</a> <span class="badge">20</span></li>
+                <li><a href="#" data-brand="Категория 2">Бренд 2</a> <span class="badge">12</span></li>
+                <li><a href="#" data-brand="Категория N">Бренд 3</a> <span class="badge">21</span></li>
+            </ul>
+            <p>По стоимости</p>
+            <ul class="filter__costs">
+                <li><a href="#" data-price="less-price">До 10 000р</a> <span class="badge">11</span></li>
+                <li><a href="#" data-price="more-price">От 10 000р</a> <span class="badge">9</span></li>
+            </ul>
+        </div>
+
+    </aside>
+    <section class="main">
+        <div class="sorting">
+            <span>Стомость</span>
+            <ul>
+                <li>
+                    <a id="cost_up" href="#">↑</a>
+                </li>
+                <li>
+                    <a id="cost_down" href="#">↓</a>
+                </li>
+            </ul>
+            <span>Вес</span>
+            <ul>
+                <li>
+                    <a id="weight_up" href="#">↑</a>
+                </li>
+                <li>
+                    <a id="weight_down" href="#">↓</a>
+                </li>
+            </ul>
+            <span>Популярность</span>
+            <ul>
+                <li>
+                    <a id="popularity_up" href="#">↑</a>
+                </li>
+                <li>
+                    <a id="popularity_down" href="#">↓</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a id="basketOfGoods" href="cart.html"><span>Корзина(0)</span></a>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="catalog">
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+            <div class="catalog__item">
+                <span class="catalog__item-name">Название товара</span>
+                <img class="catalog__item-preview" src="" alt="">
+                <span class="catalog__item-cost">10 000р</span>
+            </div>
+        </div>
+    </section>
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <script src = "js/goods.js"></script>
+    <script src = "js/eshop.js"></script>
+    
+</body>
+</html>
